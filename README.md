@@ -9,6 +9,8 @@
 * A simple library management system built using "C#" and "SQL Server" for the school project.
 
 #Features
+![FDD](https://user-images.githubusercontent.com/51430603/68565782-16edca00-0487-11ea-8bde-dd30793ceec7.PNG)
+
 
 #Source code
 
