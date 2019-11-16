@@ -1,0 +1,205 @@
+Đồ án cuối kỳ
+[QUẢN LÝ THƯ VIỆN]
+ 
+Phân công công việc & tiến độ
+No.	Công việc	 Duration (days)	Assign To	% Finished	Note
+ 	Tìm hiểu sở bộ & đăng ký đồ án	 	 	 	 
+ 	Tìm hiểu công nghệ liên quan	 	 	 	 
+I. VIẾT BÁO CÁO
+ 	Chương 1 – Hiện trạng	 	 	 	 
+ 	1.1. Hiện trạng tổ chức	 	 	 	 
+ 	1.2.  	 	 	 	 
+ 	1.3.  	 	 	 	 
+ 	Chương 2: Phân tích	 	 	 	 
+ 	2.1.	 	 	 	 
+ 	2.2. 	 	 	 	 
+ 	2.3.	 	 	 	 
+ 	Chương 3: Thiết kế	 	 	 	 
+ 	3.1.	 	 	 	 
+ 	3.2.	 	 	 	 
+ 	3.3.	 	 	 	 
+ 	3.4	 	 	 	 
+ 	Chương 4: Cài đặt	 	 	 	 
+ 	4.1.	 	 	 	 
+ 	4.2.	 	 	 	 
+ 	4.3	 	 	 	 
+ 	Chương 5: Kiểm thử	 	 	 	 
+ 	Chương 6: Kết luận	 	 	 	 
+ 	Tài liệu tham khảo	 	 	 	 
+II. LẬP TRÌNH
+ 	Module 1	 	 	 	 
+ 	Module 2	 	 	 	 
+ 	Module 3	 	 	 	 
+ 	Module …	 	 	 	 
+III. KIỂM THỬ
+ 	Module 1	 	 	 	 
+ 	Module 2	 	 	 	 
+ 	Module 3	 	 	 	 
+ 	Module …	 	 	 	 
+IV. NỘP BÁO CÁO TIẾN ĐỘ & SẢN PHẨM…
+ 	Nộp lần 1	 	 	 	 
+ 	Nộp lần 2	 	 	 	 
+ 	Nộp lần 3	 	 	 	 
+ 	Nộp lần …	 	 	 	 
+
+ 
+MỤC LỤC
+Đồ án cuối kỳ	1
+[QUẢN LÝ THƯ VIỆN]	1
+Phân công công việc & tiến độ	2
+Chương 1: Hiện trạng	4
+1.1.	Hiện trạng tổ chức	4
+1.2.	Hiện trạng nghiệp vụ	6
+1.3.	Hiện trạng tin học	14
+Chương 2: Phân tích	15
+2.1.	Lược đồ phân chức năng (FDD)	15
+2.2.	Đặc tả và Mô hình hóa nghiệp vụ (DFD Model)	15
+2.3.	Mô hình hóa dữ liệu (ERD Model)	19
+2.4.	Sơ đồ lớp ở mức phân tích (Class diagram)	19
+Chương 3: Thiết kế	20
+3.1.	Thiết kế kiến trúc	20
+3.2.	Thiết kế lớp – Sơ đồ lớp ở mức thiết kế	20
+3.3.	Thiết kế giao diện	20
+3.4.	Thiết kế dữ liệu (RD – Relationship Diagram – Mô hình quan hệ)	21
+Chương 4: Cài đặt	23
+4.1.	Công nghệ sử dụng	23
+4.2.	Vấn đề khi cài đặt	23
+4.3.	Mô tả giải pháp & kỹ thuật	23
+
+ 
+Chương 1: Hiện trạng
+1.1.	Hiện trạng tổ chức
+	Đối nội:
+Đội ngũ cán bộ thư viện trung tâm gồm 15 người và phân bố đều ở mỗi bộ phận. 
+Sơ đồ cơ cấu tổ chức:
+ 
+	Kiến trúc thư viện phân bố thành 5 tầng
+- Tầng 1: Phòng mượn 102 và 111; phòng gửi đồ; kho đóng 124.
+- Tầng 2: Phòng Ban Giám đốc 213; Bộ phận văn phòng 204; Phòng Thông tin Thư mục 220A; Phòng Hướng dẫn sử dụng thư viện 227; kho đóng 211.
+- Tầng 3: Phòng Multimedia 313; Phòng Luận văn - luận án 304.
+- Tầng 4: Phòng Xử lý thông tin 401; Phòng đọc chuyên ngành 402, 411, 419; Phòng Báo - Tạp chí 404; Phòng tự học 418.
+- Tầng 5: Phòng đọc chuyên ngành 526.
+Lịch sử hình thành và phát triển:
+    Thư viện Trường Đại học Bách Khoa Hà Nội được thành lập từ năm 1956 (ngay sau ngày thành lập trường). Trải qua quá trình xây dựng và phát triển, Thư viện đã có nhiều đóng góp quan trọng vào việc đào tạo đội ngũ cán bộ khoa học kỹ thuật đông đảo, đóng góp tích cực vào sự nghiệp phát triển kinh tế - khoa học - kỹ thuật của đất nước.
+
+Nhìn lại chặng đường đã qua, trong những năm đầu mới thành lập, với số vốn tài liệu ban đầu là 5000 cuốn sách, cơ sở vật chất nghèo nàn và 2 cán bộ phụ trách không có nghiệp vụ thư viện, Thư viện là một bộ phận trực thuộc Phòng Giáo vụ. Có thể nói điều kiện hoạt động của Thư viện lúc bấy giờ rất khó khăn, cơ sở vật chất thiếu thốn do tình hình chung của Trường và đất nước trong những năm tháng chiến tranh. Tuy nhiên, Thư viện vẫn không ngừng phấn đấu để đảm bảo phục vụ tốt cho cán bộ và sinh viên trong trường, kể cả trong thời gian sơ tán.
+
+Thư viện đã từng đi sơ tán ở: Lạng Sơn, Hà Bắc, Hải Hưng, Hà Tây cùng khối lượng lớn sách đem theo để phục vụ đào tạo cán bộ khoa học kỹ thuật cho đất nước.
+
+Cũng trong giai đoạn này, từ Trường ĐHBK Hà Nội đã hình thành những trường đại học mới như: Đại học Xây dựng, Đại học Mỏ-Địa chất, Đại học Công nghiệp nhẹ và Phân hiệu II về Quân sự (nay là học viện Kỹ thuật Quân sự). Thư viện Trường cũng chia sẻ nhiều tài liệu và đã cử cán bộ sang làm việc công tác tại Thư viện ở trường Đại học Mỏ - địa chất và trường Đại học Xây dựng.
+
+Từ năm 1973, Thư viện tách ra thành đơn vị độc lập. Ban Thư viện đã liên tục được đầu tư và phát triển không ngừng. Khi miền Nam được giải phóng, một số cán bộ Thư viện đã vào công tác tại miền Trung và miền Nam để xây dựng Thư viện trong đó.
+
+Trong thời kỳ đổi mới, Trường Đại học Bách Khoa Hà Nội đã tiến hành hiện đại hóa công tác đào tạo, nâng cao chất lượng dạy và học. Trường cũng đã đầu tư đáng kể cho Thư viện như tăng thêm kinh phí bổ sung, nâng cấp cơ sở vật chất cho xứng đáng với tầm vóc 50 năm phát triển và trưởng thành của Trường cũng như Thư viện, nhất là đầu tư xây dựng Thư viện điện tử rất quy mô và hiện đại.
+
+Tháng 11/2003, Thư viện và ĐHBKHN thông tin và mạng đã sáp nhập thành đơn vị mới là Thư viện và Mạng thông tin với hai nhiệm vụ chính: vận hành và khai thác Thư viện điện tử mới và quản lý điều hành Mạng thông tin của Trường Đại học Bách Khoa Hà Nội.
+
+Từ năm học 2006 - 2007, Thư viện điện tử Trường Đại học Bách Khoa Hà Nội mở cửa phục vụ bạn đọc với hệ thống các phòng đọc tự chọn, cùng 2000 chỗ ngồi và tăng cường khả năng truy cập vào các học liệu điện tử trực tuyến.
+
+Đầu tháng 9/2008, theo sự chỉ đạo của Ban Giám hiệu để phù hợp với tình hình mới, Bộ phận Thư viện tách ra và trở thành đơn vị Thư viện Tạ Quang Bửu độc lập, bước vào một giai đoạn phát triển mới cùng với sự phát triển mạnh mẽ của trường ĐHBK Hà Nội. 
+1.2.	Hiện trạng nghiệp vụ 
+1.2.1.	Dịch vụ Mượn trả tài liệu
+  Quy định mượn trả tài liệu:
+Đối tượng thuộc ĐHBKHN (Hệ chính quy) (*)
+Đối tượng	Số lượng tài liệu	Số ngày	Gia hạn	Đặt trước(lần)
+			Số lần	Số ngày (Ngày/lần)	
+Giảng viên, Cán bộ, Học viên sau đại học và Nghiên cứu sinh	10	60	1	30	2
+Sinh viên	5	60	1	30	2
+Đối tượng thuộc ĐHBKHN (Hệ không chính quy) (**)
+Đối tượng	Số lượng tài liệu	Số ngày	Gia hạn	Đặt trước(lần)
+			Số lần	Số ngày (Ngày/lần)	
+Độc giả thuộc hệ văn bằng hai; tại chức; Giảng viên thỉnh giảng	5	30	1	15	2
+Đối tượng ngoài ĐHBKHN (***)
+Đối tượng	Số lượng tài liệu	Số ngày	Gia hạn	Đặt trước(lần)
+			Số lần	Số ngày (Ngày/lần)	
+Độc giả ngoài ĐQHG-HCM	5	30	1	7	2
+  Chính sách đặt tiền cọc:
+Giá bìa sách	Số tiền đặt cọc
+Từ 1.000 đồng – 200.000 đồng	200.000 đồng	+ 50.000 đồng
+Từ 200.000 đồng trở lên	Đóng tiền cọc theo giá bìa quyển sách	+ 50.000 đồng
+Sách ngoại văn	Đóng tiền cọc theo giá bìa quyển sách	+ 50.000 đồng
+  Địa điểm mượn: Quầy Lưu hành – Thư viện ĐHBKHN ĐHQG-HCM/Thư viện chi nhánh KTX B.  
+ 
+  Tài liệu được mượn và không được mượn:
+Tài liệu được mượn về nhà: Tất cả sách giáo trình ở phòng 111 và sách tham khảo và sách văn học ở phòng 102.
+ Tài liệu không được mượn về nhà: Tài liệu tra cứu như từ điển, bách khoa toàn thư, cẩm nang,… có đóng dấu Không mượn về, tài liệu phòng Tham khảo, phòng Báo – Tạp chí, Băng đĩa và tài liệu lưu chiểu.
+  Phạt và bồi thường tài liệu:
+Phạt trễ hạn: Mức phạt: 5.000đ/tài liệu/ngày.
+Bồi thường hư hỏng tài liệu:
+Tình trạng	Mức phạt
+-      Mất tài liệu hoặc bất kỳ tình trạng nào làm cho tài liệu không thể sử dụng được	Đền bằng tiền: Giá bìa  x 10 + 50.000đ/tài liệu + phí phạt trễ hạn (nếu có) hoặc; Đền bằng tài liệu: Như tài liệu gốc/năm xuất bản mới hơn + 50.000đ/tài liệu + phí phạt trễ hạn (nếu có)
+-      Mất trang	 10.000đ/tờ
+-      Làm bẩn, viết vẽ bẩn lên tài liệu	 3000đ/tờ
+-      Làm bong bìa	 15.000đ/tài liệu
+-      Làm rách tài liệu	 30.000đ/tài liệu + 50.000đ/tài liệu (phí xử lý kỹ thuật)
+-      Làm ướt tài liệu	
+-      Bóc nhãn, phiếu ghi chú trên tài liệu.	
+ 
+1.2.2.	Truy cập Internet
+Phòng Đa phương tiện (phòng 313): 
+Phòng Đa phương tiện trang bị hệ thống máy tính tra cứu chất lượng để phục vụ  nhu cầu truy cập Internet và khai thác tài liệu điện tử miễn phí. Bạn đọc có thể tra cứu các CSDL trực tuyến như Science Direct, Ebrary Ebook, Proquest Central.
+Mạng không dây: Hệ thống wireless trong Thư viện cho phép Độc giả mang máy tính xách tay đến để sử dụng Internet mà không cần phải đăng ký.
+ 
+
+  
+1.2.3.	Hỗ trợ, hướng dẫn tìm kiếm thông tin
+Nhằm hỗ trợ độc giả phát triển kỹ năng tìm và đánh giá thông tin phục vụ cho nhu cầu học tập và nghiên cứu lâu dài của bản thân, TV ĐHBKHN thường xuyên tổ chức các lớp tập huấn kỹ năng thông tin từ cơ bản đến nâng cao theo yêu cầu của độc giả. Các lớp tập huấn kỹ năng thông tin cơ bản:
+Hướng dẫn sử dụng thư viện	Nội dung	Thời gian/Địa điểm
+Lớp tập huấn sử dụng thư viện (45phút)	Tập huấn hướng dẫn sử dụng các nguồn tài nguyên, dịch vụ của thư viện.	Thứ 6 hàng tuần
+Phòng 227 Thư viện Tạ Quang Bửu(TV ĐHBKHN)
+Tour tập huấn (15phút)	Hướng dẫn sử tài khoản cá nhân, tra cứu OPAC, đặt trước tài liệu, sử dụng phòng học nhóm, hội trường.
+Độc giả đi tham quan thư viện & hướng dẫn các dịch vụ tại từng bộ phận.
+Một số thông tin lưu ý, hỗ trợ độc giả.	
+Hướng dẫn trực tuyến	Độc giả không tham gia lớp/tour tập huấn sử dụng thư viện, có thể truy cập website để xem video hướng dẫn sử dụng thư viện	http://library.hust.edu.vn/node/254
+
+
+Các lớp tập huấn kỹ năng thông tin nâng cao 
+Hướng dẫn tra cứu, tìm kiếm thông tin	Nội dung	Thời gian/Địa điểm
+  Khám phá Google (45phút)	Bạn biết gì về Google?
+Các thủ thuật tìm kiếm thông tin trên Google.	Đối tượng tham dự: Tất cả độc giả - Hướng dẫn theo lớp/nhóm: Số lượng: 15 – 20 độc giả/ lớp.   - Đăng kí lớp học:
+Đăng kí tại phòng 220A Thư viện Tạ Quang Bửu(TV ĐHBKHN)
+  Tìm tin hiệu quả trên Internet(45phút)	Các bước cơ bản trong việc tìm kiếm thông tin trên Internet.
+Các kỹ thuật tra cứu thông tin bằng các công cụ điện tử.
+Cách đánh giá chất lượng nguồn thông tin.	
+Tra cứu cơ sở dữ liệu trực tuyến (45phút)	Cách sử dụng, tìm kiếm thông tin trong các CSDL do thư viện mua quyền truy cập (CSDL Proquest, ScienceDirect,…)	
+Các công cụ tiện ích (45phút)	Cách sử dụng công cụ tiện ích để tìm kiếm tài liệu.	
+1.2.4.	In ấn- scan- photocopy
+Photocopy tài liệu:
+Liên hệ cán bộ quầy Lưu hành để được hướng dẫn sử dụng các máy photocopy.
+Phí: 500đ/tờ A4.
+Scan tài liệu: Độc giả có thể chụp (scan) các trang sách, chép những trang sách đã scan ra một file dưới dạng file pdf và lưu vào thẻ nhớ USB để đọc trên máy tính hoặc gửi qua email (tại phòng máy tính 1 tầng 2).
+1.2.5.	Truy cập CSDL
+Đây là dịch vụ cung cấp mã số để truy cập từ xa, qua mạng internet đến các nguồn tài liệu điện tử do TV ĐHBKHN đầu tư, bao gồm các cơ sở dữ liệu trực tuyến thuộc nhiều lĩnh vực khoa học kỹ thuật, tự nhiên, xã hội, kinh tế của các nhà xuất bản uy tín trong và ngoài nước như CSDL Science Direct, Ebrary Ebook, Proquest Central, v.v. 
+Bảng phí đăng ký độc giả:
+Đối tượng	Phí đăng ký 	Phí gia hạn	Phí cấp lại	Ghi chú
+Sinh viên
+Giảng viên thỉnh giảng
+Nghiên cứu sinh
+Học viên sau đại học
+Độc giả thuộc hệ văn bằng hai
+Tại chức (*)	45.000đ 	25.000đ/năm 	20.000đ	(*) Miễn phí cho sinh viên năm nhất
+Độc giả ngoài ĐHBKHN 		 		 
+Làm thẻ thư viện	 95.000đ 	50.000đ/năm		
+Cấp quyền truy cập các CSDL	180.000đ/ năm		20.000đ	
+Cán bộ/Giảng viên ĐHBKHN	Miễn phí	 Miễn phí	Miễn phí 	 
+Bên cạnh đó, thư viện còn có các dịch vụ khác như: Tư vấn thiết kế, xây dựng và phát triển thư viện, thiết kế mỹ thuật bài giảng, đề tài, luận án, luận văn. Nhận thiết kế và in thẻ, thẻ chip theo yêu cầu.
+1.2.6.	Phòng học tự học
+   Thư viện ĐHBKHN cung cấp phòng tự học với không gian thoáng mát và yên tĩnh cho tất cả độc giả là cán bộ, giảng viên, học viên sau đại học và sinh viên của thư viện.(P.418, P.313B). 
+1.3.	Hiện trạng tin học
+-	Cơ sở vật chất- Trang thiết bị
+Thư viện ĐHBKHN được trang bị các phương tiện, hệ thống hỗ trợ kỹ thuật hiện đại, đáp ứng tốt nhất yêu cầu bạn đọc.
+-	Máy tính và hệ thống mạng:
+Thư viện có 200 máy tính cấu hình mạnh, chạy được các phần mềm ứng dụng của các chuyên ngành đào tạo, nối kết với hệ thống mạng hữu tuyến và vô tuyến băng thông rộng
+-	Thiết bị mượn/trả/thống kê tài liệu và kiểm soát tự động
+-	Thiết bị in ấn, sao chép tài liệu:
+Máy Photocopy: các máy photocopy tự động thu phí được bố trí tại các tầng.
+Máy in laser trắng đen và máy in màu: được bố trí tại các phòng máy tính, in và trả tiền qua mạng.
+Máy Scan: bố trí tại các tầng, liên hệ tại các quầy phục vụ để được hướng dẫn.
+-	Trang thiết bị phục vụ hội nghị, hội thảo
+Máy chiếu đa năng
+Máy tính xách tay
+-	Các trang thiết bị nghe - nhìn
+Tivi, đầu Video, Cassettes, CD, VCD, DVD,... bố trí tại các phòng Đa phương tiện, kết nối với các kênh truyền hình vệ tinh.
+
+ 
+
