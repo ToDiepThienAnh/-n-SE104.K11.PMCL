@@ -1,0 +1,45 @@
+D:\Project\C #\QLTV 3 tier\DTO\bin\Debug\DTO.dll
+D:\Project\C #\QLTV 3 tier\DTO\bin\Debug\DTO.pdb
+D:\Project\C #\QLTV 3 tier\DTO\obj\Debug\DTO.dll
+D:\Project\C #\QLTV 3 tier\DTO\obj\Debug\DTO.pdb
+D:\Project\C #\QLTV 3 tier\DTO\bin\Debug\Properties\AssemblyInfo.cs
+D:\Project\C #\QLTV 3 tier\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\DTO\bin\Debug\Properties\AssemblyInfo.cs
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\DTO\bin\Debug\DTO.dll
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\DTO\bin\Debug\DTO.pdb
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\DTO\obj\Debug\DTO.dll
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\DTO\obj\Debug\DTO.pdb
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\DTO\bin\Debug\Microsoft.CSharp.dll
+C:\Users\nguye\Desktop\New folder\DTO\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\nguye\Desktop\New folder\DTO\bin\Debug\DTO.dll
+C:\Users\nguye\Desktop\New folder\DTO\bin\Debug\DTO.pdb
+C:\Users\nguye\Desktop\New folder\DTO\bin\Debug\Microsoft.CSharp.dll
+C:\Users\nguye\Desktop\New folder\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\New folder\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\New folder\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\nguye\Desktop\New folder\DTO\obj\Debug\DTO.dll
+C:\Users\nguye\Desktop\New folder\DTO\obj\Debug\DTO.pdb
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\bin\Debug\DTO.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\bin\Debug\DTO.pdb
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\bin\Debug\Microsoft.CSharp.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\obj\Debug\DTO.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\DTO\obj\Debug\DTO.pdb
+D:\Libary-management\SOURCE\DTO\bin\Debug\Properties\AssemblyInfo.cs
+D:\Libary-management\SOURCE\DTO\bin\Debug\DTO.dll
+D:\Libary-management\SOURCE\DTO\bin\Debug\DTO.pdb
+D:\Libary-management\SOURCE\DTO\bin\Debug\Microsoft.CSharp.dll
+D:\Libary-management\SOURCE\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Libary-management\SOURCE\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Libary-management\SOURCE\DTO\obj\Debug\DTO.dll
+D:\Libary-management\SOURCE\DTO\obj\Debug\DTO.pdb
+D:\QuanLiThuVien\QuanLiThuVien\DTO\bin\Debug\Properties\AssemblyInfo.cs
+D:\QuanLiThuVien\QuanLiThuVien\DTO\bin\Debug\DTO.dll
+D:\QuanLiThuVien\QuanLiThuVien\DTO\bin\Debug\DTO.pdb
+D:\QuanLiThuVien\QuanLiThuVien\DTO\bin\Debug\Microsoft.CSharp.dll
+D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.dll
+D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,71 @@
+D:\Project\C #\QLTV 3 tier\BUS\bin\Debug\BUS.dll
+D:\Project\C #\QLTV 3 tier\BUS\bin\Debug\BUS.pdb
+D:\Project\C #\QLTV 3 tier\BUS\bin\Debug\DAO.dll
+D:\Project\C #\QLTV 3 tier\BUS\bin\Debug\DTO.dll
+D:\Project\C #\QLTV 3 tier\BUS\bin\Debug\DAO.pdb
+D:\Project\C #\QLTV 3 tier\BUS\bin\Debug\DTO.pdb
+D:\Project\C #\QLTV 3 tier\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\Project\C #\QLTV 3 tier\BUS\obj\Debug\BUS.dll
+D:\Project\C #\QLTV 3 tier\BUS\obj\Debug\BUS.pdb
+D:\Project\C #\QLTV 3 tier\BUS\bin\Debug\Properties\AssemblyInfo.cs
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\Properties\AssemblyInfo.cs
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\BUS.dll
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\BUS.pdb
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\DAO.dll
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\DTO.dll
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\DAO.pdb
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\DTO.pdb
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\obj\Debug\BUS.dll
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\obj\Debug\BUS.pdb
+D:\Documents\CNPM\QLTV 3 tier\QLTV 3 tier\BUS\bin\Debug\Microsoft.CSharp.dll
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\BUS.dll
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\BUS.pdb
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\DAO.dll
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\DTO.dll
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\Microsoft.CSharp.dll
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\DAO.pdb
+C:\Users\nguye\Desktop\New folder\BUS\bin\Debug\DTO.pdb
+C:\Users\nguye\Desktop\New folder\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\New folder\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\New folder\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\nguye\Desktop\New folder\BUS\obj\Debug\BUS.dll
+C:\Users\nguye\Desktop\New folder\BUS\obj\Debug\BUS.pdb
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\BUS.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\BUS.pdb
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\DAO.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\DTO.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\Microsoft.CSharp.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\DAO.pdb
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\bin\Debug\DTO.pdb
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\obj\Debug\BUS.dll
+C:\Users\nguye\Desktop\cnpm\QLTV\BUS\obj\Debug\BUS.pdb
+D:\Libary-management\SOURCE\BUS\bin\Debug\Properties\AssemblyInfo.cs
+D:\Libary-management\SOURCE\BUS\bin\Debug\BUS.dll
+D:\Libary-management\SOURCE\BUS\bin\Debug\BUS.pdb
+D:\Libary-management\SOURCE\BUS\bin\Debug\DAO.dll
+D:\Libary-management\SOURCE\BUS\bin\Debug\DTO.dll
+D:\Libary-management\SOURCE\BUS\bin\Debug\Microsoft.CSharp.dll
+D:\Libary-management\SOURCE\BUS\bin\Debug\DAO.pdb
+D:\Libary-management\SOURCE\BUS\bin\Debug\DTO.pdb
+D:\Libary-management\SOURCE\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\Libary-management\SOURCE\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Libary-management\SOURCE\BUS\obj\Debug\BUS.dll
+D:\Libary-management\SOURCE\BUS\obj\Debug\BUS.pdb
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\Properties\AssemblyInfo.cs
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\BUS.dll
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\BUS.pdb
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\DAO.dll
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\DTO.dll
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\Microsoft.CSharp.dll
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\DAO.pdb
+D:\QuanLiThuVien\QuanLiThuVien\BUS\bin\Debug\DTO.pdb
+D:\QuanLiThuVien\QuanLiThuVien\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\QuanLiThuVien\QuanLiThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\QuanLiThuVien\QuanLiThuVien\BUS\obj\Debug\BUS.dll
+D:\QuanLiThuVien\QuanLiThuVien\BUS\obj\Debug\BUS.pdb
