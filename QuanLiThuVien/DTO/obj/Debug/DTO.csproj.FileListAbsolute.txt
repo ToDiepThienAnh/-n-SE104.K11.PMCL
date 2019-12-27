@@ -43,3 +43,12 @@ D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.csproj.CopyComplete
 D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.dll
 D:\QuanLiThuVien\QuanLiThuVien\DTO\obj\Debug\DTO.pdb
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\bin\Debug\DTO.dll
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\bin\Debug\DTO.pdb
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\obj\Debug\DTO.dll
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DTO\obj\Debug\DTO.pdb

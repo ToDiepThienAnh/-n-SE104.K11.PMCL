@@ -162,22 +162,23 @@
             // 
             this.txtTenTG.Location = new System.Drawing.Point(102, 65);
             this.txtTenTG.Name = "txtTenTG";
-            this.txtTenTG.Size = new System.Drawing.Size(166, 29);
+            this.txtTenTG.Size = new System.Drawing.Size(166, 25);
             this.txtTenTG.TabIndex = 12;
             // 
             // txtMaTG
             // 
             this.txtMaTG.Location = new System.Drawing.Point(102, 33);
             this.txtMaTG.Name = "txtMaTG";
-            this.txtMaTG.Size = new System.Drawing.Size(166, 29);
+            this.txtMaTG.Size = new System.Drawing.Size(166, 25);
             this.txtMaTG.TabIndex = 11;
+            this.txtMaTG.TextChanged += new System.EventHandler(this.txtMaTG_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(304, 37);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 23);
+            this.label4.Size = new System.Drawing.Size(54, 17);
             this.label4.TabIndex = 2;
             this.label4.Text = "Ghi chú:";
             // 
@@ -186,7 +187,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(28, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 23);
+            this.label3.Size = new System.Drawing.Size(70, 17);
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên tác giả:";
             // 
@@ -195,7 +196,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(30, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 23);
+            this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã tác giả:";
             // 
@@ -255,7 +256,7 @@
             // 
             // frmCapNhatTacGia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(659, 511);
             this.Controls.Add(this.dgvTacGia);

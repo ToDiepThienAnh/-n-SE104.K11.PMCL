@@ -395,5 +395,10 @@ namespace QLTV
         {
             this.parentForm.Opacity = 1;
         }
+
+        private void txtMaDG_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

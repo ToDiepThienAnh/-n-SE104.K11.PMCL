@@ -222,5 +222,10 @@ namespace QLTV
         {
             this.parentForm.Opacity = 1;
         }
+
+        private void txtMaTG_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
