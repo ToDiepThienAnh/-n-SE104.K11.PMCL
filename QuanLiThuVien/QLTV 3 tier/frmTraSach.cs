@@ -17,6 +17,7 @@ namespace QLTV
     {
         private frmMain parentForm;
         private DTO.DangNhap_DTO user;
+        private DataTable dt;
 
         public frmTraSach(frmMain parentForm)
         {
@@ -26,6 +27,11 @@ namespace QLTV
 
         private void frmTraSach_Load(object sender, EventArgs e)
         {
+            if (this.user.LoaiTaiKhoan == 1)
+            {
+                this.txtMaThe.Enabled = true;
+                this.btnLoadTT.Enabled = true;
+            }
             CleanUI();
             cboLuaChonTraLoad();
         }
@@ -43,7 +49,10 @@ namespace QLTV
 
         private void cboLuaChonTraLoad()
         {
-            DataTable dt = BUS_OBJ.loadDSSachDangMuonTheoMaThe(user.TenDangNhap);
+            if (this.user.LoaiTaiKhoan == 1)
+                dt = BUS_OBJ.loadDSSachDangMuonTheoMaThe(txtMaThe.Text);
+            else
+                dt = BUS_OBJ.loadDSSachDangMuonTheoMaThe(user.TenDangNhap);
             if (dt.Rows.Count != 0)
             {
                 cboLuaChonTra.DataSource = dt;
@@ -84,7 +93,10 @@ namespace QLTV
             {
                 return;
             }
-            DataTable dt = BUS_OBJ.loadTTPhieuMuonTheoMaTheVaMaSach(user.TenDangNhap, cboLuaChonTra.SelectedValue.ToString());
+            if (this.user.LoaiTaiKhoan == 1)
+                dt = BUS_OBJ.loadTTPhieuMuonTheoMaTheVaMaSach(txtMaThe.Text, cboLuaChonTra.SelectedValue.ToString());
+            else
+                dt = BUS_OBJ.loadTTPhieuMuonTheoMaTheVaMaSach(user.TenDangNhap, cboLuaChonTra.SelectedValue.ToString());
             if (dt.Rows.Count != 0)
             {
                 lbSoPhieu.Text = dt.Rows[0].Field<Int32>(0).ToString();
@@ -139,6 +151,21 @@ namespace QLTV
             {
                 MetroFramework.MetroMessageBox.Show(this, "Vui lòng chờ phê duyệt các yêu cầu đã gửi.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void txtMaThe_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+            cboLuaChonTraLoad();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

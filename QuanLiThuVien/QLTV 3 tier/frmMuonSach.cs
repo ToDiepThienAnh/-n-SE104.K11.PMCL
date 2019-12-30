@@ -46,6 +46,8 @@ namespace QLTV
             txtThongTinTimKiem.Text = "Nhập thông tin tìm kiếm...";
             txtThongTinTimKiem.ForeColor = Color.Gray;
             txtThongTinTimKiem.Focus();
+            if (this.user.LoaiTaiKhoan == 1)
+                this.txtMaThe.Enabled = true;
         }
 
         private void HienThiDuLieu()
@@ -307,7 +309,7 @@ namespace QLTV
                 {
                     try
                     {
-                        string maThe = BUS_OBJ.layMaTheTheoMaDocGia(user.TenDangNhap);
+                        string maThe = BUS_OBJ.layMaTheTheoMaDocGia(txtMaThe.Text);
                         if (maThe == "")
                         {
                             MetroFramework.MetroMessageBox.Show(this, "Mã thẻ của bạn không khả dụng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -352,6 +354,16 @@ namespace QLTV
         }
 
         private void txtThongTinTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaThe_TextChanged(object sender, EventArgs e)
         {
 
         }

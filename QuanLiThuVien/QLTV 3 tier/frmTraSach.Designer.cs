@@ -48,6 +48,9 @@
             this.cboLuaChonTra = new System.Windows.Forms.ComboBox();
             this.tltTenChuThe = new MetroFramework.Components.MetroToolTip();
             this.tltTenSach = new MetroFramework.Components.MetroToolTip();
+            this.btnLoadTT = new MetroFramework.Controls.MetroButton();
+            this.txtMaThe = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.gbInfo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,7 +84,7 @@
             this.lbMaSach.AutoSize = true;
             this.lbMaSach.Location = new System.Drawing.Point(115, 91);
             this.lbMaSach.Name = "lbMaSach";
-            this.lbMaSach.Size = new System.Drawing.Size(17, 23);
+            this.lbMaSach.Size = new System.Drawing.Size(13, 17);
             this.lbMaSach.TabIndex = 23;
             this.lbMaSach.Text = "-";
             // 
@@ -90,7 +93,7 @@
             this.lbMaThe.AutoSize = true;
             this.lbMaThe.Location = new System.Drawing.Point(115, 65);
             this.lbMaThe.Name = "lbMaThe";
-            this.lbMaThe.Size = new System.Drawing.Size(17, 23);
+            this.lbMaThe.Size = new System.Drawing.Size(13, 17);
             this.lbMaThe.TabIndex = 23;
             this.lbMaThe.Text = "-";
             // 
@@ -99,7 +102,7 @@
             this.lbSoPhieu.AutoSize = true;
             this.lbSoPhieu.Location = new System.Drawing.Point(115, 39);
             this.lbSoPhieu.Name = "lbSoPhieu";
-            this.lbSoPhieu.Size = new System.Drawing.Size(17, 23);
+            this.lbSoPhieu.Size = new System.Drawing.Size(13, 17);
             this.lbSoPhieu.TabIndex = 23;
             this.lbSoPhieu.Text = "-";
             // 
@@ -132,7 +135,7 @@
             "Trả trễ"});
             this.cboTinhTrang.Location = new System.Drawing.Point(427, 35);
             this.cboTinhTrang.Name = "cboTinhTrang";
-            this.cboTinhTrang.Size = new System.Drawing.Size(224, 29);
+            this.cboTinhTrang.Size = new System.Drawing.Size(224, 25);
             this.cboTinhTrang.TabIndex = 21;
             // 
             // label2
@@ -140,7 +143,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(352, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 23);
+            this.label2.Size = new System.Drawing.Size(67, 17);
             this.label2.TabIndex = 20;
             this.label2.Text = "Tình trạng:";
             // 
@@ -156,14 +159,14 @@
             // 
             this.dtpNgayTra.Location = new System.Drawing.Point(112, 139);
             this.dtpNgayTra.Name = "dtpNgayTra";
-            this.dtpNgayTra.Size = new System.Drawing.Size(224, 29);
+            this.dtpNgayTra.Size = new System.Drawing.Size(224, 25);
             this.dtpNgayTra.TabIndex = 18;
             // 
             // dtpNgayMuon
             // 
             this.dtpNgayMuon.Location = new System.Drawing.Point(112, 113);
             this.dtpNgayMuon.Name = "dtpNgayMuon";
-            this.dtpNgayMuon.Size = new System.Drawing.Size(224, 29);
+            this.dtpNgayMuon.Size = new System.Drawing.Size(224, 25);
             this.dtpNgayMuon.TabIndex = 17;
             // 
             // label10
@@ -171,7 +174,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(48, 91);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(73, 23);
+            this.label10.Size = new System.Drawing.Size(56, 17);
             this.label10.TabIndex = 8;
             this.label10.Text = "Mã sách:";
             // 
@@ -180,7 +183,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(365, 65);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(68, 23);
+            this.label7.Size = new System.Drawing.Size(54, 17);
             this.label7.TabIndex = 5;
             this.label7.Text = "Ghi chú:";
             // 
@@ -189,7 +192,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(47, 143);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 23);
+            this.label6.Size = new System.Drawing.Size(57, 17);
             this.label6.TabIndex = 4;
             this.label6.Text = "Ngày trả:";
             // 
@@ -198,7 +201,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(29, 117);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 23);
+            this.label5.Size = new System.Drawing.Size(75, 17);
             this.label5.TabIndex = 3;
             this.label5.Text = "Ngày mượn:";
             // 
@@ -207,7 +210,7 @@
             this.lb.AutoSize = true;
             this.lb.Location = new System.Drawing.Point(54, 65);
             this.lb.Name = "lb";
-            this.lb.Size = new System.Drawing.Size(64, 23);
+            this.lb.Size = new System.Drawing.Size(50, 17);
             this.lb.TabIndex = 2;
             this.lb.Text = "Mã thẻ:";
             // 
@@ -216,7 +219,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(45, 39);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 23);
+            this.label3.Size = new System.Drawing.Size(59, 17);
             this.label3.TabIndex = 1;
             this.label3.Text = "Số phiếu:";
             // 
@@ -228,7 +231,7 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(29, 104);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 28);
+            this.label1.Size = new System.Drawing.Size(188, 21);
             this.label1.TabIndex = 16;
             this.label1.Text = "Chọn cuốn sách mang trả:";
             // 
@@ -239,7 +242,7 @@
             this.cboLuaChonTra.FormattingEnabled = true;
             this.cboLuaChonTra.Location = new System.Drawing.Point(223, 102);
             this.cboLuaChonTra.Name = "cboLuaChonTra";
-            this.cboLuaChonTra.Size = new System.Drawing.Size(490, 29);
+            this.cboLuaChonTra.Size = new System.Drawing.Size(490, 25);
             this.cboLuaChonTra.TabIndex = 15;
             this.cboLuaChonTra.SelectedValueChanged += new System.EventHandler(this.cboLuaChonTra_SelectedValueChanged);
             // 
@@ -261,11 +264,52 @@
             this.tltTenSach.StyleManager = null;
             this.tltTenSach.Theme = MetroFramework.MetroThemeStyle.Light;
             // 
+            // btnLoadTT
+            // 
+            this.btnLoadTT.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnLoadTT.Enabled = false;
+            this.btnLoadTT.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnLoadTT.FontWeight = MetroFramework.MetroButtonWeight.Light;
+            this.btnLoadTT.Highlight = true;
+            this.btnLoadTT.Location = new System.Drawing.Point(552, 65);
+            this.btnLoadTT.Name = "btnLoadTT";
+            this.btnLoadTT.Size = new System.Drawing.Size(161, 26);
+            this.btnLoadTT.Style = MetroFramework.MetroColorStyle.Blue;
+            this.btnLoadTT.TabIndex = 20;
+            this.btnLoadTT.Text = "Tải thông tin thẻ";
+            this.btnLoadTT.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.btnLoadTT.UseSelectable = true;
+            this.btnLoadTT.Click += new System.EventHandler(this.btnTim_Click);
+            // 
+            // txtMaThe
+            // 
+            this.txtMaThe.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtMaThe.Enabled = false;
+            this.txtMaThe.Location = new System.Drawing.Point(137, 66);
+            this.txtMaThe.Name = "txtMaThe";
+            this.txtMaThe.Size = new System.Drawing.Size(409, 25);
+            this.txtMaThe.TabIndex = 21;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(29, 70);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(102, 21);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Nhập mã thẻ:";
+            // 
             // frmTraSach
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(747, 400);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtMaThe);
+            this.Controls.Add(this.btnLoadTT);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboLuaChonTra);
             this.Controls.Add(this.gbInfo);
@@ -305,5 +349,8 @@
         private System.Windows.Forms.Label lbSoPhieu;
         private MetroFramework.Components.MetroToolTip tltTenChuThe;
         private MetroFramework.Components.MetroToolTip tltTenSach;
+        private MetroFramework.Controls.MetroButton btnLoadTT;
+        private System.Windows.Forms.TextBox txtMaThe;
+        private System.Windows.Forms.Label label4;
     }
 }
