@@ -48,7 +48,6 @@
             this.cboLuaChonTra = new System.Windows.Forms.ComboBox();
             this.tltTenChuThe = new MetroFramework.Components.MetroToolTip();
             this.tltTenSach = new MetroFramework.Components.MetroToolTip();
-            this.btnLoadTT = new MetroFramework.Controls.MetroButton();
             this.txtMaThe = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.gbInfo.SuspendLayout();
@@ -264,31 +263,15 @@
             this.tltTenSach.StyleManager = null;
             this.tltTenSach.Theme = MetroFramework.MetroThemeStyle.Light;
             // 
-            // btnLoadTT
-            // 
-            this.btnLoadTT.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnLoadTT.Enabled = false;
-            this.btnLoadTT.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnLoadTT.FontWeight = MetroFramework.MetroButtonWeight.Light;
-            this.btnLoadTT.Highlight = true;
-            this.btnLoadTT.Location = new System.Drawing.Point(552, 65);
-            this.btnLoadTT.Name = "btnLoadTT";
-            this.btnLoadTT.Size = new System.Drawing.Size(161, 26);
-            this.btnLoadTT.Style = MetroFramework.MetroColorStyle.Blue;
-            this.btnLoadTT.TabIndex = 20;
-            this.btnLoadTT.Text = "Tải thông tin thẻ";
-            this.btnLoadTT.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.btnLoadTT.UseSelectable = true;
-            this.btnLoadTT.Click += new System.EventHandler(this.btnTim_Click);
-            // 
             // txtMaThe
             // 
             this.txtMaThe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtMaThe.Enabled = false;
             this.txtMaThe.Location = new System.Drawing.Point(137, 66);
             this.txtMaThe.Name = "txtMaThe";
-            this.txtMaThe.Size = new System.Drawing.Size(409, 25);
+            this.txtMaThe.Size = new System.Drawing.Size(232, 25);
             this.txtMaThe.TabIndex = 21;
+            this.txtMaThe.TextChanged += new System.EventHandler(this.txtMaThe_TextChanged_1);
             // 
             // label4
             // 
@@ -309,7 +292,6 @@
             this.ClientSize = new System.Drawing.Size(747, 400);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtMaThe);
-            this.Controls.Add(this.btnLoadTT);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboLuaChonTra);
             this.Controls.Add(this.gbInfo);
@@ -349,7 +331,6 @@
         private System.Windows.Forms.Label lbSoPhieu;
         private MetroFramework.Components.MetroToolTip tltTenChuThe;
         private MetroFramework.Components.MetroToolTip tltTenSach;
-        private MetroFramework.Controls.MetroButton btnLoadTT;
         private System.Windows.Forms.TextBox txtMaThe;
         private System.Windows.Forms.Label label4;
     }

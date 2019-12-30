@@ -30,7 +30,6 @@ namespace QLTV
             if (this.user.LoaiTaiKhoan == 1)
             {
                 this.txtMaThe.Enabled = true;
-                this.btnLoadTT.Enabled = true;
             }
             CleanUI();
             cboLuaChonTraLoad();
@@ -157,15 +156,15 @@ namespace QLTV
         {
 
         }
-
-        private void btnTim_Click(object sender, EventArgs e)
-        {
-            cboLuaChonTraLoad();
-        }
-
+        
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtMaThe_TextChanged_1(object sender, EventArgs e)
+        {
+            cboLuaChonTraLoad();
         }
     }
 }
