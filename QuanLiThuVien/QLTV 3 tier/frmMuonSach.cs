@@ -350,5 +350,10 @@ namespace QLTV
             this.parentForm.Opacity = 1;
             this.parentForm.showInfo();
         }
+
+        private void txtThongTinTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

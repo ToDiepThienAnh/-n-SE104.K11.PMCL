@@ -425,5 +425,10 @@ namespace QLTV
         {
 
         }
+
+        private void txtThongTinTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
