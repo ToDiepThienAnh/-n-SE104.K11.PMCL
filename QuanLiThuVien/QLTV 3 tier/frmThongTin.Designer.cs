@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThongTin));
             this.label2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -92,6 +93,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label10);
             this.Font = new System.Drawing.Font("Segoe UI Light", 12F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.Name = "frmThongTin";
             this.Padding = new System.Windows.Forms.Padding(26, 96, 26, 32);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPhieuMuon));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbMaThe = new System.Windows.Forms.Label();
             this.lbTenSach = new System.Windows.Forms.Label();
@@ -180,6 +181,7 @@
             this.Controls.Add(this.btnGui);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Segoe UI Light", 9.75F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmPhieuMuon";
             this.Padding = new System.Windows.Forms.Padding(23, 78, 23, 26);

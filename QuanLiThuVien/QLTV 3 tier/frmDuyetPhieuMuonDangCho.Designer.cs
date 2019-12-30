@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDuyetPhieuMuonDangCho));
             this.gbInfo = new System.Windows.Forms.GroupBox();
             this.btnOkSua = new System.Windows.Forms.Button();
             this.btnTuChoi = new MetroFramework.Controls.MetroButton();
@@ -362,6 +363,7 @@
             this.Controls.Add(this.dgvPhieuMuon);
             this.Controls.Add(this.gbInfo);
             this.Font = new System.Drawing.Font("Segoe UI Light", 9.75F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmDuyetPhieuMuonDangCho";
             this.Padding = new System.Windows.Forms.Padding(23, 78, 23, 26);

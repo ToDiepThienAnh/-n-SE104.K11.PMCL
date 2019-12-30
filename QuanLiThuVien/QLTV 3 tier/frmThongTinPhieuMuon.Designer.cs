@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThongTinPhieuMuon));
             this.btnTim = new MetroFramework.Controls.MetroButton();
             this.label1 = new System.Windows.Forms.Label();
             this.cboLuaChonTim = new System.Windows.Forms.ComboBox();
@@ -162,6 +163,7 @@
             this.Controls.Add(this.cboLuaChonTim);
             this.Controls.Add(this.txtThongTinTimKiem);
             this.Font = new System.Drawing.Font("Segoe UI Light", 9.75F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmThongTinPhieuMuon";
             this.Padding = new System.Windows.Forms.Padding(23, 78, 23, 26);
