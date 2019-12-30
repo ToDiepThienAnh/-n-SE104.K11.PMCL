@@ -254,18 +254,12 @@ namespace QLTV
 
         private void trảSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (this.user.LoaiTaiKhoan == 0)
-            {
                 frmTraSach traSach = new frmTraSach(this);
                 delPassUserData del = new delPassUserData(traSach.receivingData);
                 del(this.user);
                 this.Opacity = .75;
                 traSach.ShowDialog();
-            }
-            else
-            {
-                MetroFramework.MetroMessageBox.Show(this, "Mã thẻ của bạn không khả dụng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
         }
 
         private void thốngKêSáchĐangMượnToolStripMenuItem_Click(object sender, EventArgs e)
