@@ -139,7 +139,8 @@ namespace QLTV
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            Enabled_input();
+            if (txtMaDG.Enabled == false)
+                Enabled_input();
             gbInfo.Text = "Nhập đầy đủ các thông tin:";
             txtMaDG.ReadOnly = false;
             txtTenDG.ReadOnly = false;
@@ -409,13 +410,20 @@ namespace QLTV
             txtSoCMT.Enabled = true;
             txtTenDG.Enabled = true;
         }
-        private void Disable_input()
+
+        private void gbInfo_Enter(object sender, EventArgs e)
         {
-            txtMaDG.Enabled = false;
-            txtDiaChi.Enabled = false;
-            txtMK.Enabled = false;
-            txtSoCMT.Enabled = false;
+
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboLuaChonTim_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
