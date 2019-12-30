@@ -68,3 +68,13 @@ C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DAO\obj\Debug\DAO
 C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DAO\obj\Debug\DAO.csproj.CopyComplete
 C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DAO\obj\Debug\DAO.dll
 C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\DAO\obj\Debug\DAO.pdb
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\bin\Debug\Properties\AssemblyInfo.cs
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\bin\Debug\DAO.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\bin\Debug\DAO.pdb
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\bin\Debug\DTO.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\bin\Debug\Microsoft.CSharp.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\bin\Debug\DTO.pdb
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\obj\Debug\DAO.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\DAO\obj\Debug\DAO.pdb

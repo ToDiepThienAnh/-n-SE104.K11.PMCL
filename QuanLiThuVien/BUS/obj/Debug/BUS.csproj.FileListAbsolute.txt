@@ -82,3 +82,15 @@ C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\BUS\obj\Debug\BUS
 C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\BUS\obj\Debug\BUS.dll
 C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\BUS\obj\Debug\BUS.pdb
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\Properties\AssemblyInfo.cs
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\BUS.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\BUS.pdb
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\DAO.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\DTO.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\Microsoft.CSharp.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\DAO.pdb
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\bin\Debug\DTO.pdb
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\obj\Debug\BUS.dll
+D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\BUS\obj\Debug\BUS.pdb
