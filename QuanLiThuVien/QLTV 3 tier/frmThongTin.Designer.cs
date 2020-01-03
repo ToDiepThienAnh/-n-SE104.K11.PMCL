@@ -78,9 +78,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI Light", 10F);
             this.label1.Location = new System.Drawing.Point(160, 167);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 23);
+            this.label1.Size = new System.Drawing.Size(172, 23);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Copyright © 2019 UIT";
+            this.label1.Text = "Copyright © 2020 UIT";
             // 
             // frmThongTin
             // 
