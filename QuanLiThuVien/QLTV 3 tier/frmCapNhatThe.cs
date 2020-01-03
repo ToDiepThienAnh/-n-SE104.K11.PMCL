@@ -40,6 +40,7 @@ namespace QLTV
         {
             if (txtMaThe.Text != "")
             {
+                enable_input();
                 gbInfo.Text = "Sửa thông tin thẻ:";
                 txtMaThe.ReadOnly = true;
                 txtMaDG.ReadOnly = false;
@@ -175,6 +176,7 @@ namespace QLTV
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            enable_input();
             gbInfo.Text = "Nhập đầy đủ các thông tin:";
             txtMaThe.ReadOnly = false;
             txtMaDG.ReadOnly = false;
@@ -316,6 +318,13 @@ namespace QLTV
         private void frmCapNhatThe_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.parentForm.Opacity = 1;
+        }
+        public void enable_input()
+        {
+            txtMaDG.Enabled = true;
+            txtMaThe.Enabled = true;
+            txtSachDangMuon.Enabled = true;
+            txtSachDcMuon.Enabled = true;
         }
     }
 }

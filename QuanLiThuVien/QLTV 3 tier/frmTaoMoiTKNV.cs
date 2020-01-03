@@ -76,5 +76,10 @@ namespace QLTV
             this.parentForm.Opacity = 1;
             this.parentForm.showInfo();
         }
+
+        private void txtTenDN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

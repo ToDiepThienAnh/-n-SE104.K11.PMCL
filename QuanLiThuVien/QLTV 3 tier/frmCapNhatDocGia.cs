@@ -297,9 +297,10 @@ namespace QLTV
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            Enabled_input();
+           
             if (txtMaDG.Text != "")
             {
+                Enabled_input();
                 gbInfo.Text = "Sửa thông tin độc giả:";
                 txtMaDG.ReadOnly = true;
                 txtTenDG.ReadOnly = false;

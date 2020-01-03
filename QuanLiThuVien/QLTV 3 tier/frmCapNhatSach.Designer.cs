@@ -40,9 +40,6 @@
             this.btnOkSua = new System.Windows.Forms.Button();
             this.btnThem = new MetroFramework.Controls.MetroButton();
             this.btnOkThem = new System.Windows.Forms.Button();
-            this.cboNXB = new QLTV.AutoCompleteComboBox();
-            this.cboTheLoai = new QLTV.AutoCompleteComboBox();
-            this.cboTacGia = new QLTV.AutoCompleteComboBox();
             this.txtSoBanTon = new System.Windows.Forms.TextBox();
             this.txtSoBan = new System.Windows.Forms.TextBox();
             this.txtGia = new System.Windows.Forms.TextBox();
@@ -64,6 +61,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cboLuaChonTim = new System.Windows.Forms.ComboBox();
             this.txtThongTinTimKiem = new System.Windows.Forms.TextBox();
+            this.cboNXB = new QLTV.AutoCompleteComboBox();
+            this.cboTheLoai = new QLTV.AutoCompleteComboBox();
+            this.cboTacGia = new QLTV.AutoCompleteComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSach)).BeginInit();
             this.gbInfo.SuspendLayout();
             this.SuspendLayout();
@@ -167,7 +167,7 @@
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(100, 35);
             this.btnXoa.Style = MetroFramework.MetroColorStyle.Silver;
-            this.btnXoa.TabIndex = 6;
+            this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.Theme = MetroFramework.MetroThemeStyle.Light;
             this.btnXoa.UseSelectable = true;
@@ -178,7 +178,7 @@
             this.btnCancel.Location = new System.Drawing.Point(212, 205);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(80, 28);
-            this.btnCancel.TabIndex = 25;
+            this.btnCancel.TabIndex = 20;
             this.btnCancel.Text = "Hủy bỏ";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -193,7 +193,7 @@
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(100, 35);
             this.btnSua.Style = MetroFramework.MetroColorStyle.Silver;
-            this.btnSua.TabIndex = 7;
+            this.btnSua.TabIndex = 2;
             this.btnSua.Text = "Sửa";
             this.btnSua.Theme = MetroFramework.MetroThemeStyle.Light;
             this.btnSua.UseSelectable = true;
@@ -204,7 +204,7 @@
             this.btnOkSua.Location = new System.Drawing.Point(104, 205);
             this.btnOkSua.Name = "btnOkSua";
             this.btnOkSua.Size = new System.Drawing.Size(80, 28);
-            this.btnOkSua.TabIndex = 24;
+            this.btnOkSua.TabIndex = 18;
             this.btnOkSua.Text = "Đồng ý";
             this.btnOkSua.UseVisualStyleBackColor = true;
             this.btnOkSua.Click += new System.EventHandler(this.btnOkSua_Click);
@@ -219,7 +219,7 @@
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(100, 35);
             this.btnThem.Style = MetroFramework.MetroColorStyle.Silver;
-            this.btnThem.TabIndex = 8;
+            this.btnThem.TabIndex = 1;
             this.btnThem.Text = "Thêm ";
             this.btnThem.Theme = MetroFramework.MetroThemeStyle.Light;
             this.btnThem.UseSelectable = true;
@@ -235,37 +235,13 @@
             this.btnOkThem.UseVisualStyleBackColor = true;
             this.btnOkThem.Click += new System.EventHandler(this.btnOkThem_Click);
             // 
-            // cboNXB
-            // 
-            this.cboNXB.FormattingEnabled = true;
-            this.cboNXB.Location = new System.Drawing.Point(104, 155);
-            this.cboNXB.Name = "cboNXB";
-            this.cboNXB.Size = new System.Drawing.Size(222, 25);
-            this.cboNXB.TabIndex = 22;
-            // 
-            // cboTheLoai
-            // 
-            this.cboTheLoai.FormattingEnabled = true;
-            this.cboTheLoai.Location = new System.Drawing.Point(104, 124);
-            this.cboTheLoai.Name = "cboTheLoai";
-            this.cboTheLoai.Size = new System.Drawing.Size(222, 25);
-            this.cboTheLoai.TabIndex = 21;
-            // 
-            // cboTacGia
-            // 
-            this.cboTacGia.FormattingEnabled = true;
-            this.cboTacGia.Location = new System.Drawing.Point(104, 93);
-            this.cboTacGia.Name = "cboTacGia";
-            this.cboTacGia.Size = new System.Drawing.Size(222, 25);
-            this.cboTacGia.TabIndex = 20;
-            // 
             // txtSoBanTon
             // 
             this.txtSoBanTon.Enabled = false;
             this.txtSoBanTon.Location = new System.Drawing.Point(477, 155);
             this.txtSoBanTon.Name = "txtSoBanTon";
             this.txtSoBanTon.Size = new System.Drawing.Size(210, 25);
-            this.txtSoBanTon.TabIndex = 19;
+            this.txtSoBanTon.TabIndex = 16;
             this.txtSoBanTon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoBanTon_KeyPress);
             // 
             // txtSoBan
@@ -274,7 +250,7 @@
             this.txtSoBan.Location = new System.Drawing.Point(477, 124);
             this.txtSoBan.Name = "txtSoBan";
             this.txtSoBan.Size = new System.Drawing.Size(210, 25);
-            this.txtSoBan.TabIndex = 18;
+            this.txtSoBan.TabIndex = 15;
             this.txtSoBan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoBan_KeyPress);
             // 
             // txtGia
@@ -283,7 +259,7 @@
             this.txtGia.Location = new System.Drawing.Point(477, 93);
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(210, 25);
-            this.txtGia.TabIndex = 17;
+            this.txtGia.TabIndex = 14;
             this.txtGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGia_KeyPress);
             // 
             // txtSoTrang
@@ -292,7 +268,7 @@
             this.txtSoTrang.Location = new System.Drawing.Point(477, 62);
             this.txtSoTrang.Name = "txtSoTrang";
             this.txtSoTrang.Size = new System.Drawing.Size(210, 25);
-            this.txtSoTrang.TabIndex = 16;
+            this.txtSoTrang.TabIndex = 13;
             this.txtSoTrang.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoTrang_KeyPress);
             // 
             // txtNamXB
@@ -301,7 +277,7 @@
             this.txtNamXB.Location = new System.Drawing.Point(477, 31);
             this.txtNamXB.Name = "txtNamXB";
             this.txtNamXB.Size = new System.Drawing.Size(210, 25);
-            this.txtNamXB.TabIndex = 15;
+            this.txtNamXB.TabIndex = 12;
             this.txtNamXB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNamXB_KeyPress);
             // 
             // txtTenSach
@@ -310,7 +286,7 @@
             this.txtTenSach.Location = new System.Drawing.Point(104, 62);
             this.txtTenSach.Name = "txtTenSach";
             this.txtTenSach.Size = new System.Drawing.Size(222, 25);
-            this.txtTenSach.TabIndex = 11;
+            this.txtTenSach.TabIndex = 8;
             // 
             // txtMaSach
             // 
@@ -318,7 +294,7 @@
             this.txtMaSach.Location = new System.Drawing.Point(104, 31);
             this.txtMaSach.Name = "txtMaSach";
             this.txtMaSach.Size = new System.Drawing.Size(222, 25);
-            this.txtMaSach.TabIndex = 10;
+            this.txtMaSach.TabIndex = 7;
             // 
             // label11
             // 
@@ -373,6 +349,7 @@
             this.label6.Size = new System.Drawing.Size(87, 17);
             this.label6.TabIndex = 4;
             this.label6.Text = "Năm xuất bản:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -420,7 +397,7 @@
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(113, 26);
             this.btnTim.Style = MetroFramework.MetroColorStyle.Blue;
-            this.btnTim.TabIndex = 28;
+            this.btnTim.TabIndex = 6;
             this.btnTim.Text = "Tìm ";
             this.btnTim.Theme = MetroFramework.MetroThemeStyle.Light;
             this.btnTim.UseSelectable = true;
@@ -455,7 +432,7 @@
             this.cboLuaChonTim.Name = "cboLuaChonTim";
             this.cboLuaChonTim.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cboLuaChonTim.Size = new System.Drawing.Size(101, 25);
-            this.cboLuaChonTim.TabIndex = 26;
+            this.cboLuaChonTim.TabIndex = 4;
             // 
             // txtThongTinTimKiem
             // 
@@ -463,8 +440,32 @@
             this.txtThongTinTimKiem.Location = new System.Drawing.Point(252, 67);
             this.txtThongTinTimKiem.Name = "txtThongTinTimKiem";
             this.txtThongTinTimKiem.Size = new System.Drawing.Size(391, 25);
-            this.txtThongTinTimKiem.TabIndex = 27;
+            this.txtThongTinTimKiem.TabIndex = 5;
             this.txtThongTinTimKiem.TextChanged += new System.EventHandler(this.txtThongTinTimKiem_TextChanged);
+            // 
+            // cboNXB
+            // 
+            this.cboNXB.FormattingEnabled = true;
+            this.cboNXB.Location = new System.Drawing.Point(104, 155);
+            this.cboNXB.Name = "cboNXB";
+            this.cboNXB.Size = new System.Drawing.Size(222, 25);
+            this.cboNXB.TabIndex = 0;
+            // 
+            // cboTheLoai
+            // 
+            this.cboTheLoai.FormattingEnabled = true;
+            this.cboTheLoai.Location = new System.Drawing.Point(104, 124);
+            this.cboTheLoai.Name = "cboTheLoai";
+            this.cboTheLoai.Size = new System.Drawing.Size(222, 25);
+            this.cboTheLoai.TabIndex = 0;
+            // 
+            // cboTacGia
+            // 
+            this.cboTacGia.FormattingEnabled = true;
+            this.cboTacGia.Location = new System.Drawing.Point(104, 93);
+            this.cboTacGia.Name = "cboTacGia";
+            this.cboTacGia.Size = new System.Drawing.Size(222, 25);
+            this.cboTacGia.TabIndex = 0;
             // 
             // frmCapNhatSach
             // 

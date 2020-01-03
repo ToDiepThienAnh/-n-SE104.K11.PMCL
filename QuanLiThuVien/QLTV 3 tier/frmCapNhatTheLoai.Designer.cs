@@ -156,26 +156,29 @@
             // 
             // txtTenTL
             // 
+            this.txtTenTL.Enabled = false;
             this.txtTenTL.Location = new System.Drawing.Point(133, 84);
             this.txtTenTL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTenTL.Name = "txtTenTL";
-            this.txtTenTL.Size = new System.Drawing.Size(189, 32);
+            this.txtTenTL.Size = new System.Drawing.Size(189, 27);
             this.txtTenTL.TabIndex = 12;
             // 
             // txtMaTL
             // 
+            this.txtMaTL.Enabled = false;
             this.txtMaTL.Location = new System.Drawing.Point(133, 45);
             this.txtMaTL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMaTL.Name = "txtMaTL";
-            this.txtMaTL.Size = new System.Drawing.Size(189, 32);
+            this.txtMaTL.Size = new System.Drawing.Size(189, 27);
             this.txtMaTL.TabIndex = 11;
+            this.txtMaTL.TextChanged += new System.EventHandler(this.txtMaTL_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(41, 88);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 25);
+            this.label3.Size = new System.Drawing.Size(83, 20);
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên thể loại:";
             // 
@@ -184,7 +187,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(46, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 25);
+            this.label2.Size = new System.Drawing.Size(80, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã thể loại:";
             // 
@@ -246,7 +249,7 @@
             // 
             // frmCapNhatTheLoai
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(613, 481);
             this.Controls.Add(this.dgvTheLoai);

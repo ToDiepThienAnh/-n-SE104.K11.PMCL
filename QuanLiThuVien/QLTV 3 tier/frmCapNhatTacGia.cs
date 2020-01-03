@@ -73,8 +73,7 @@ namespace QLTV
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (txtMaTG.Enabled == true)
-                Enable_input();
+            Enable_input();
             gbInfo.Text = "Thêm mới tác giả:";
             txtMaTG.ReadOnly = false;
             txtTenTG.ReadOnly = false;
@@ -107,8 +106,10 @@ namespace QLTV
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+            
             if (txtMaTG.Text != "")
             {
+                Enable_input();
                 gbInfo.Text = "Sửa thông tin tác giả:";
                 txtMaTG.ReadOnly = true;
                 txtTenTG.ReadOnly = false;

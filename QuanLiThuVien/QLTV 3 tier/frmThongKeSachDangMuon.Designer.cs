@@ -37,23 +37,21 @@
             this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.reportViewer1.Location = new System.Drawing.Point(47, 124);
-            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
+            this.reportViewer1.Location = new System.Drawing.Point(35, 101);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(1041, 412);
+            this.reportViewer1.Size = new System.Drawing.Size(781, 335);
             this.reportViewer1.TabIndex = 0;
             this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
             // 
             // frmThongKeSachDangMuon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1119, 575);
+            this.ClientSize = new System.Drawing.Size(839, 467);
             this.Controls.Add(this.reportViewer1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmThongKeSachDangMuon";
-            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 23);
+            this.Padding = new System.Windows.Forms.Padding(20, 60, 20, 19);
             this.Text = "Thống kê sách đang mượn";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmThongKeSachDangMuon_FormClosing);
             this.Load += new System.EventHandler(this.frmThongKeSachDangMuon_Load);

@@ -479,6 +479,20 @@ namespace QLTV
         {
 
         }
+
+        private void btnQuenMK_Click(object sender, EventArgs e)
+        {
+            frmQuenMatKhau quenMK = new frmQuenMatKhau(this);
+            delPassUserData del = new delPassUserData(quenMK.receivingData);
+            del(this.user);
+            this.Opacity = .75;
+            quenMK.ShowDialog();
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

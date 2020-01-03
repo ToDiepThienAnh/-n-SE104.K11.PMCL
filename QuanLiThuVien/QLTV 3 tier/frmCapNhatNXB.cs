@@ -89,9 +89,9 @@ namespace QLTV
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            enable_input();
             if (txtMaNXB.Text != "")
             {
+                enable_input();
                 gbInfo.Text = "Sửa thông tin NXB:";
                 txtMaNXB.ReadOnly = true;
                 txtTenNXB.ReadOnly = false;

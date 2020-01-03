@@ -80,5 +80,15 @@ namespace QLTV
             this.parentForm.Opacity = 1;
             this.parentForm.showInfo();
         }
+
+        private void txtMKCu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMKMoi1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

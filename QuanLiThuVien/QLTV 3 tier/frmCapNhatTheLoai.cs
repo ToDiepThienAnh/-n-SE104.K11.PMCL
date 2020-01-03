@@ -68,6 +68,7 @@ namespace QLTV
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            enable_input();
             gbInfo.Text = "Thêm mới thể loại:";
             txtMaTL.ReadOnly = false;
             txtTenTL.ReadOnly = false;
@@ -127,6 +128,7 @@ namespace QLTV
         {
             if (txtMaTL.Text != "")
             {
+                enable_input();
                 gbInfo.Text = "Sửa thông tin thể loại:";
                 txtMaTL.ReadOnly = true;
                 txtTenTL.ReadOnly = false;
@@ -205,6 +207,16 @@ namespace QLTV
         private void frmCapNhatTheLoai_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.parentForm.Opacity = 1;
+        }
+
+        private void txtMaTL_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        public void enable_input()
+        {
+            txtMaTL.Enabled = true;
+            txtTenTL.Enabled = true;
         }
     }
 }

@@ -44,7 +44,7 @@
             this.txtMKMoi2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtMKMoi2.Location = new System.Drawing.Point(196, 149);
             this.txtMKMoi2.Name = "txtMKMoi2";
-            this.txtMKMoi2.Size = new System.Drawing.Size(176, 29);
+            this.txtMKMoi2.Size = new System.Drawing.Size(176, 25);
             this.txtMKMoi2.TabIndex = 11;
             this.txtMKMoi2.UseSystemPasswordChar = true;
             // 
@@ -53,18 +53,20 @@
             this.txtMKMoi1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtMKMoi1.Location = new System.Drawing.Point(196, 115);
             this.txtMKMoi1.Name = "txtMKMoi1";
-            this.txtMKMoi1.Size = new System.Drawing.Size(176, 29);
+            this.txtMKMoi1.Size = new System.Drawing.Size(176, 25);
             this.txtMKMoi1.TabIndex = 10;
             this.txtMKMoi1.UseSystemPasswordChar = true;
+            this.txtMKMoi1.TextChanged += new System.EventHandler(this.txtMKMoi1_TextChanged);
             // 
             // txtMKCu
             // 
             this.txtMKCu.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtMKCu.Location = new System.Drawing.Point(196, 81);
             this.txtMKCu.Name = "txtMKCu";
-            this.txtMKCu.Size = new System.Drawing.Size(176, 29);
+            this.txtMKCu.Size = new System.Drawing.Size(176, 25);
             this.txtMKCu.TabIndex = 9;
             this.txtMKCu.UseSystemPasswordChar = true;
+            this.txtMKCu.TextChanged += new System.EventHandler(this.txtMKCu_TextChanged);
             // 
             // label3
             // 
@@ -72,7 +74,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(81, 153);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 23);
+            this.label3.Size = new System.Drawing.Size(111, 17);
             this.label3.TabIndex = 8;
             this.label3.Text = "Nhập lại mật khẩu:";
             // 
@@ -82,7 +84,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(105, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 23);
+            this.label2.Size = new System.Drawing.Size(87, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "Mật khẩu mới:";
             // 
@@ -92,7 +94,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(113, 85);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 23);
+            this.label1.Size = new System.Drawing.Size(79, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Mật khẩu cũ:";
             // 
@@ -120,7 +122,7 @@
             // 
             // frmDoiMK
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(452, 243);
             this.Controls.Add(this.btnHuy);

@@ -95,8 +95,7 @@ namespace QLTV
                 e.Handled = true;
         }
         private void btnTim_Click(object sender, EventArgs e)
-        {
-           
+        {           
             if (txtThongTinTimKiem.Text == "")
             {
                 HienThiDuLieu();
@@ -210,15 +209,7 @@ namespace QLTV
             }
         }
 
-        private void txtThongTinTimKiem_Enter(object sender, EventArgs e)
-        {
-            if (txtThongTinTimKiem.ForeColor != Color.Black)
-            {
-                txtThongTinTimKiem.ForeColor = Color.Black;
-                txtThongTinTimKiem.Text = "";
-            }
-        }
-                       
+        
         private void txtSoTrang_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
@@ -400,9 +391,10 @@ namespace QLTV
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            enable_input();
+           
             if (txtMaSach.Text != "")
             {
+                enable_input();
                 gbInfo.Text = "Sửa thông tin sách:";
                 txtMaSach.ReadOnly = true;
                 txtTenSach.ReadOnly = false;
@@ -564,6 +556,7 @@ namespace QLTV
             {
                 HienThiDuLieu();
             }
+           
         }
         public void enable_input()
         {
@@ -574,6 +567,11 @@ namespace QLTV
             txtSoBanTon.Enabled = true;
             txtSoTrang.Enabled = true;
             txtTenSach.Enabled = true;
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

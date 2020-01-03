@@ -341,3 +341,4 @@ D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\QLTV 3 tier\obj\Debug\QLTV.csproj.GenerateR
 D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\QLTV 3 tier\obj\Debug\QLTV.csproj.CopyComplete
 D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\QLTV 3 tier\obj\Debug\QLTV.exe
 D:\SE104.K11.PMCL-QLTV\QuanLiThuVien\QLTV 3 tier\obj\Debug\QLTV.pdb
+C:\Users\Khoa\Documents\GitHub\-n-SE104.K11.PMCL\QuanLiThuVien\QLTV 3 tier\obj\Debug\QLTV.frmQuenMatKhau.resources
