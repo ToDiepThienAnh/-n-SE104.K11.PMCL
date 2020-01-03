@@ -54,6 +54,7 @@
             this.Name = "frmThongKeSachTreHan";
             this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 23);
             this.Text = "Thống kê sách trễ hạn";
+            this.Theme = MetroFramework.MetroThemeStyle.Default;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmThongKeSachTreHan_FormClosing);
             this.Load += new System.EventHandler(this.frmThongKeSachTreHan_Load);
             this.ResumeLayout(false);

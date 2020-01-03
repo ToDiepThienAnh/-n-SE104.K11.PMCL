@@ -215,7 +215,7 @@ namespace QLTV
             capNhatThe.ShowDialog();
         }
 
-        private void mượnSáchToolStripMenuItem_Click(object sender, EventArgs e)
+        public void mượnSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmMuonSach muonSach = new frmMuonSach(this);
             delPassUserData del = new delPassUserData(muonSach.receivingData);
@@ -471,6 +471,11 @@ namespace QLTV
         }
 
         private void monthCalendar_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void gbMuonSach_Enter(object sender, EventArgs e)
         {
 
         }
