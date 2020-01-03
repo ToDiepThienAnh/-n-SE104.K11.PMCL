@@ -57,6 +57,7 @@ namespace QLTV
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            enable_input();
             gbInfo.Text = "Thêm mới nhà xuất bản:";
             txtMaNXB.ReadOnly = false;
             txtTenNXB.ReadOnly = false;
@@ -88,6 +89,7 @@ namespace QLTV
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+            enable_input();
             if (txtMaNXB.Text != "")
             {
                 gbInfo.Text = "Sửa thông tin NXB:";
@@ -219,6 +221,22 @@ namespace QLTV
         private void frmCapNhatNXB_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.parentForm.Opacity = 1;
+        }
+
+        private void txtMaNXB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        public void enable_input()
+        {
+            txtMaNXB.Enabled = true;
+            txtTenNXB.Enabled = true;
+            rtbThongTinNXB.Enabled = true;
+        }
+
+        private void rtbThongTinNXB_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

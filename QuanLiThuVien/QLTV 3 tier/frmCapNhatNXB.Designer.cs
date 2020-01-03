@@ -153,32 +153,37 @@
             // rtbThongTinNXB
             // 
             this.rtbThongTinNXB.BackColor = System.Drawing.SystemColors.Window;
+            this.rtbThongTinNXB.Enabled = false;
             this.rtbThongTinNXB.Location = new System.Drawing.Point(362, 25);
             this.rtbThongTinNXB.Name = "rtbThongTinNXB";
             this.rtbThongTinNXB.Size = new System.Drawing.Size(166, 62);
             this.rtbThongTinNXB.TabIndex = 13;
             this.rtbThongTinNXB.Text = "";
+            this.rtbThongTinNXB.TextChanged += new System.EventHandler(this.rtbThongTinNXB_TextChanged);
             // 
             // txtTenNXB
             // 
+            this.txtTenNXB.Enabled = false;
             this.txtTenNXB.Location = new System.Drawing.Point(74, 62);
             this.txtTenNXB.Name = "txtTenNXB";
-            this.txtTenNXB.Size = new System.Drawing.Size(166, 29);
+            this.txtTenNXB.Size = new System.Drawing.Size(166, 25);
             this.txtTenNXB.TabIndex = 12;
             // 
             // txtMaNXB
             // 
+            this.txtMaNXB.Enabled = false;
             this.txtMaNXB.Location = new System.Drawing.Point(74, 24);
             this.txtMaNXB.Name = "txtMaNXB";
-            this.txtMaNXB.Size = new System.Drawing.Size(166, 29);
+            this.txtMaNXB.Size = new System.Drawing.Size(166, 25);
             this.txtMaNXB.TabIndex = 11;
+            this.txtMaNXB.TextChanged += new System.EventHandler(this.txtMaNXB_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(261, 28);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 23);
+            this.label4.Size = new System.Drawing.Size(91, 17);
             this.label4.TabIndex = 2;
             this.label4.Text = "Thông tin NXB:";
             // 
@@ -187,7 +192,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 23);
+            this.label3.Size = new System.Drawing.Size(57, 17);
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên NXB:";
             // 
@@ -196,7 +201,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(14, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 23);
+            this.label2.Size = new System.Drawing.Size(55, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã NXB:";
             // 
@@ -257,7 +262,7 @@
             // 
             // frmCapNhatNXB
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(598, 493);
             this.Controls.Add(this.dgvNXB);
