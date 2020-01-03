@@ -355,7 +355,10 @@ namespace QLTV
 
         private void txtThongTinTimKiem_TextChanged(object sender, EventArgs e)
         {
-
+            if (txtThongTinTimKiem.Text == "")
+            {
+                HienThiDuLieu();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -364,6 +367,11 @@ namespace QLTV
         }
 
         private void txtMaThe_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

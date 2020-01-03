@@ -16,13 +16,17 @@ namespace QLTV
 {
     public partial class frmCapNhatSach : MetroForm
     {
-        private Form parentForm;
-        public frmCapNhatSach(Form parentForm)
+        private frmMain parentForm;
+        private DTO.DangNhap_DTO user;
+        public frmCapNhatSach(frmMain parentForm)
         {
             InitializeComponent();
             this.parentForm = parentForm;
         }
-
+        public void receivingData(DangNhap_DTO user)
+        {
+            this.user = user;
+        }
         private void frmCapNhatSach_Load(object sender, EventArgs e)
         {
             cboTacGia_LoadDataBase();
@@ -34,14 +38,187 @@ namespace QLTV
             btnOkSua.Hide();
             HienThiDuLieu();
             dgvSach.ReadOnly = true;
+            cboLuaChonTim.SelectedItem = "Mã sách";
+            txtThongTinTimKiem.Focus();
+        }
+        private void hieuChinhDGV()
+        {
+            dgvSach.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+            dgvSach.Columns[0].HeaderText = "Mã sách";
+            dgvSach.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dgvSach.Columns[0].Width = 50;
+            dgvSach.Columns[1].HeaderText = "Tên sách";
+            dgvSach.Columns[1].Width = 264;
+            dgvSach.Columns[2].HeaderText = "Mã tác giả";
+            dgvSach.Columns[2].Width = 68;
+            dgvSach.Columns[3].HeaderText = "Mã thể loại";
+            dgvSach.Columns[3].Width = 68;
+            dgvSach.Columns[4].HeaderText = "Mã nhà xuất bản";
+            dgvSach.Columns[4].Width = 80;
+            dgvSach.Columns[5].HeaderText = "Năm xuất bản";
+            dgvSach.Columns[5].Width = 80;
+            dgvSach.Columns[6].HeaderText = "Số trang";
+            dgvSach.Columns[6].Width = 60;
+            dgvSach.Columns[7].HeaderText = "Giá";
+            dgvSach.Columns[7].Width = 46;
+            dgvSach.Columns[8].HeaderText = "Số bản";
+            dgvSach.Columns[8].Width = 50;
+            dgvSach.Columns[9].HeaderText = "Tồn";
+            dgvSach.Columns[9].Width = 50;
+            foreach (DataGridViewColumn col in dgvSach.Columns)
+            {
+                col.HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                col.HeaderCell.Style.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Pixel);
+            }
+            if (dgvSach.Rows.Count == 2)
+            {
+
+            }
+        }
+        private void txtThongTinTimKiem_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (cboLuaChonTim.SelectedItem.ToString() == "Năm xuất bản")
+            {
+                if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                    e.Handled = true;
+            }
         }
 
+        private void cboLuaChonTim_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cboLuaChonTim.SelectedItem.ToString() == "Năm xuất bản")
+                txtThongTinTimKiem.Text = "";
+        }
         private void txtNamXB_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
                 e.Handled = true;
         }
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+           
+            if (txtThongTinTimKiem.Text == "")
+            {
+                HienThiDuLieu();
+            }
+            else
+            {
+                switch (cboLuaChonTim.SelectedItem.ToString())
+                {
+                    case "Mã sách": timKiemTheoMaSach(txtThongTinTimKiem.Text); break;
+                    case "Tên sách": timKiemTheoTenSach(txtThongTinTimKiem.Text.Trim()); break;
+                    case "Tên tác giả": timKiemTheoTacGia(txtThongTinTimKiem.Text.Trim()); break;
+                    case "Thể loại": timKiemTheoTheLoai(txtThongTinTimKiem.Text.Trim()); break;
+                    case "Nhà xuất bản": timKiemTheoNXB(txtThongTinTimKiem.Text.Trim()); break;
+                    case "Năm xuất bản":
+                        if (txtThongTinTimKiem.Text != "")
+                        {
+                            timKiemTheoNamXB(Convert.ToInt16(txtThongTinTimKiem.Text));
+                        }
+                        break;
+                }
+            }
+        }
+        private void timKiemTheoMaSach(string maSach)
+        {
+            this.dgvSach.DataSource = null;
+            DataTable dt = BUS_OBJ.timKiemTheoMaSach(maSach);
+            if (dt.Rows.Count != 0)
+            {
+                this.dgvSach.DataSource = dt;
+                hieuChinhDGV();
+            }
+            else
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Không tìm thấy mã sách tương tự.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtThongTinTimKiem.Focus();
+            }
+        }
+        private void timKiemTheoTenSach(string tenSach)
+        {
+            this.dgvSach.DataSource = null;
+            DataTable dt = BUS_OBJ.timKiemTheoTenSach(tenSach);
+            if (dt.Rows.Count != 0)
+            {
+                this.dgvSach.DataSource = dt;
+                hieuChinhDGV();
+            }
+            else
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Không tìm thấy tên sách tương tự.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtThongTinTimKiem.Focus();
+            }
+        }
+        private void timKiemTheoTacGia(string tenTacGia)
+        {
+            this.dgvSach.DataSource = null;
+            DataTable dt = BUS_OBJ.timKiemTheoTenTG(tenTacGia);
+            if (dt.Rows.Count != 0)
+            {
+                this.dgvSach.DataSource = dt;
+                hieuChinhDGV();
+            }
+            else
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Không tìm thấy sách có tên tác giả tương tự.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtThongTinTimKiem.Focus();
+            }
+        }
+        private void timKiemTheoTheLoai(string tenTheLoai)
+        {
+            this.dgvSach.DataSource = null;
+            DataTable dt = BUS_OBJ.timKiemTheoTheLoai(tenTheLoai);
+            if (dt.Rows.Count != 0)
+            {
+                this.dgvSach.DataSource = dt;
+                hieuChinhDGV();
+            }
+            else
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Không tìm thấy sách có tên thể loại tương tự.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtThongTinTimKiem.Focus();
+            }
+        }
+        private void timKiemTheoNXB(string tenNXB)
+        {
+            this.dgvSach.DataSource = null;
+            DataTable dt = BUS_OBJ.timKiemTheoNXB(tenNXB);
+            if (dt.Rows.Count != 0)
+            {
+                this.dgvSach.DataSource = dt;
+                hieuChinhDGV();
+            }
+            else
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Không tìm thấy sách có tên nhà xuất bản tương tự.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtThongTinTimKiem.Focus();
+            }
+        }
+        private void timKiemTheoNamXB(int namXB)
+        {
+            this.dgvSach.DataSource = null;
+            DataTable dt = BUS_OBJ.timKiemTheoNamXB(namXB);
+            if (dt.Rows.Count != 0)
+            {
+                this.dgvSach.DataSource = dt;
+                hieuChinhDGV();
+            }
+            else
+            {
+                MetroFramework.MetroMessageBox.Show(this, "Không tìm thấy sách có năm xuất bản tương tự.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtThongTinTimKiem.Focus();
+            }
+        }
 
+        private void txtThongTinTimKiem_Enter(object sender, EventArgs e)
+        {
+            if (txtThongTinTimKiem.ForeColor != Color.Black)
+            {
+                txtThongTinTimKiem.ForeColor = Color.Black;
+                txtThongTinTimKiem.Text = "";
+            }
+        }
+                       
         private void txtSoTrang_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
@@ -223,6 +400,7 @@ namespace QLTV
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+            enable_input();
             if (txtMaSach.Text != "")
             {
                 gbInfo.Text = "Sửa thông tin sách:";
@@ -250,6 +428,7 @@ namespace QLTV
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            enable_input();
             gbInfo.Text = "Nhập đầy đủ các thông tin:";
             txtMaSach.ReadOnly = false;
             txtTenSach.ReadOnly = false;
@@ -375,6 +554,26 @@ namespace QLTV
         private void frmCapNhatSach_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.parentForm.Opacity = 1;
+        }
+
+       
+
+        private void txtThongTinTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            if (txtThongTinTimKiem.Text == "")
+            {
+                HienThiDuLieu();
+            }
+        }
+        public void enable_input()
+        {
+            txtGia.Enabled = true;
+            txtMaSach.Enabled = true;
+            txtNamXB.Enabled = true;
+            txtSoBan.Enabled = true;
+            txtSoBanTon.Enabled = true;
+            txtSoTrang.Enabled = true;
+            txtTenSach.Enabled = true;
         }
     }
 }
