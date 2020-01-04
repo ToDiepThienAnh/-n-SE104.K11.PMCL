@@ -51,7 +51,7 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button1.Location = new System.Drawing.Point(170, 137);
+            this.button1.Location = new System.Drawing.Point(198, 137);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 28);
             this.button1.TabIndex = 3;
@@ -62,9 +62,9 @@
             // txtTenDN
             // 
             this.txtTenDN.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtTenDN.Location = new System.Drawing.Point(170, 75);
+            this.txtTenDN.Location = new System.Drawing.Point(198, 75);
             this.txtTenDN.Name = "txtTenDN";
-            this.txtTenDN.Size = new System.Drawing.Size(201, 25);
+            this.txtTenDN.Size = new System.Drawing.Size(173, 25);
             this.txtTenDN.TabIndex = 1;
             this.txtTenDN.TextChanged += new System.EventHandler(this.txtTenDN_TextChanged);
             // 
